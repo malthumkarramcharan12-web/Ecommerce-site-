@@ -1,0 +1,9 @@
+<h2>Products</h2>
+
+<ul>
+{% for p in products %}
+<li>{{ p }} - <a href="/add/{{ p }}">Add</a></li>
+{% endfor %}
+</ul>
+
+<a href="/cart">Go to Cart</a>
